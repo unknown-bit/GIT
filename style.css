@@ -1,0 +1,13 @@
+.grid {
+  display: grid;
+  border: 1px solid;
+  min-height: 400px;
+}
+
+.grid__element {
+  padding: 10px;
+}
+
+.grid__element:nth-child(2n) {
+  background-color: #f1f1f1;
+}
