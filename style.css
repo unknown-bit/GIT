@@ -1,13 +1,22 @@
 .grid {
   display: grid;
-  border: 1px solid;
-  min-height: 400px;
+  grid-template-columns: 100px 200px 100px;
+  grid-template-rows: 100px 100px 100px;
+  /* grid-column-gap: 30px;
+  grid-row-gap: 30px; */
+  /* grid-gap: 30px; */
+  grid-gap: 20px 30px;
 }
 
 .grid__element {
   padding: 10px;
 }
 
-.grid__element:nth-child(2n) {
-  background-color: #f1f1f1;
+.grid__element {
+  background-color: orange;
+  color: white;
 }
+
+/* .grid__element:nth-child(2n) {
+  background-color: gray;
+} */
